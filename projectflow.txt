@@ -9,4 +9,8 @@
 we will have to  remove git from folder for dvc to  handle
 by git rm -r --cached 'data'  #data is file name.
 8. dvc add data/    git add .gitignore data.dvc
-
+9 . Now dvc commit and then dvc push
+9 . git add -commit-push to mark this stage as first version of data.
+10. now make change to mycode.py to append a new row in data , check changes via 'dvc status'
+11.  again  "dvc commit" and "dvc push" and generate a new id corresponding to data 
+and new data pushed to S3
