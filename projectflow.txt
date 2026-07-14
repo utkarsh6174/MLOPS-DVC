@@ -14,3 +14,7 @@ by git rm -r --cached 'data'  #data is file name.
 10. now make change to mycode.py to append a new row in data , check changes via 'dvc status'
 11.  again  "dvc commit" and "dvc push" and generate a new id corresponding to data 
 and new data pushed to S3
+12. then git add -commit  -push ( we are saving v2 of our data )
+13.check dvc git status 
+13 repreat for v3 . 
+
